@@ -1,0 +1,13 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+    <h1 style="color:orange">Adding Youtube Videos</h1>
+    <iframe width="400" height="200" src="https://www.youtube.com/watch?v=PskLZA1oXGo" frameborder="9" allowfullscreen></iframe>
+  </body>
+</html>
