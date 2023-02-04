@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+    <h2>Text Styles</h2>
+    <p>
+      Merve <b>Polat</b><br>
+      Merve <strong>Polat</strong><br>
+      Merve <em>Polat</em><br>
+      Merve <i>Polat</i><br>
+      Merve <small>Polat</small><br>
+      Merve <sub>Polat</sub><br>
+      Merve <sup>Polat</sup><br>
+      Merve <ins>Polat</ins><br>
+      Merve <del>Polat</del><br>
+      Merve <mark>Polat</mark><br>
+    </p>
+  </body>
+</html>
