@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+    <h1 style="color:blue">Working With Canvas</h1>
+    <!--
+    <canvas id="myCanvas" width="200", height="100"></canvas>
+    -->
+
+    <!--An empty box-->
+    <canvas id="myCanvas" width="200" height="100" style="border:3px solid #ff4512";></canvas>
+    <br><br>
+
+
+
+    <h3>Adding Javascript</h3>
+    <!-- Draw a Line -->
+    <canvas id="myCanvas1" width="200" height="200" style="border:3px solid #244572";></canvas>
+    <script>
+      var c = document.getElementById("myCanvas1");
+      var ctx = c.getContext("2d");
+      ctx.moveTo(0,0);
+      ctx.lineTo(200, 200);
+      ctx.stroke();
+    </script><br>
+
+
+    <canvas id="myCanvas2" width="200" height="200" style="border:4px solid #ffff8f";></canvas>
+    <script>
+      var c = document.getElementById("myCanvas2");
+      var ctx = c.getContext("2d");
+      ctx.beginPath();
+      ctx.arc(100, 100, 100, 0, 2*Math.PI);
+      ctx.stroke();
+    </script>
+    <br><br>
+
+    
+    <!--Draw a Circle-->
+    <canvas id="myCanvas3" width="200" height="200" style="border:4px solid #ff0f8f";></canvas>
+    <script>
+      var c = document.getElementById("myCanvas3");
+      var ctx = c.getContext("2d");
+      ctx.beginPath();
+      ctx.arc(90, 80, 20, 0, 2*Math.PI);
+      ctx.stroke();
+    </script>
+    <br>
+
+
+    <!--Draw a Text-->
+    <canvas id="myCanvas4" width="200" height="200" style="border:7px solid #105696";></canvas>
+    <script>
+      var c = document.getElementById("myCanvas4");
+      var ctx = c.getContext("2d");
+      ctx.font = "30px Arial";
+      ctx.fillText("Merve Polat", 20, 100);
+    </script><br>
+
+
+    <!--Stroke Text-->
+    <canvas id="myCanvas5" width="200" height="200" style="border:7px solid #105696";></canvas>
+    <script>
+      var c = document.getElementById("myCanvas5");
+      var ctx = c.getContext("2d");
+      ctx.font = "30px Arial";
+      ctx.strokeText("Merve Polat", 20, 100);
+    </script>
+
+
+
+
+
+
+  </body>
+</html>
