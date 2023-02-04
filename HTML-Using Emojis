@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+    <h2>Emojis</h2>
+    <h3>Smiling Face with Heart-Eyes</h3>
+    <span style="font-size:100px">😍</span><br><br>
+
+    <h3>Winking Face</h3>
+    <span style="font-size:100px">😉</span><br><br>
+
+    <h3>Loudly Crying Face</h3>
+    <span style="font-size:100px">😭</span>
+  </body>
+</html>
