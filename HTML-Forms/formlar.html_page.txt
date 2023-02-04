@@ -1,0 +1,15 @@
+formlar.html
+
+<!doctype html>
+
+<html>
+  <head>
+    
+  </head>
+
+  <body>
+    
+    <h1>Form Page</h1>
+
+  </body>
+</html>
