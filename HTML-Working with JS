@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+    <h2 style="color:green">WORKING WITH JAVASCRIPT IN HTML</h2>
+    <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">
+      SHOW TIME AND DATE
+    </button>
+
+    <p id="demo"></p>
+
+    <p id="merve"></p>
+    <script>
+      document.getElementById('merve').innerHTML = 'HELLO THERE';
+    </script>
+
+    <p id="polat"></p>
+    <script>
+      document.getElementById('polat').innerHTML='Hello Javascript!';
+      document.getElementById('polat').style.fontSize='25px';
+      document.getElementById('polat').style.color='white';
+      document.getElementById('polat').style.backgroundColor="gray"
+    </script>
+
+    
+
+  </body>
+</html>
