@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+    <h1>Hello There!</h1>
+
+    <table>
+      <caption>Employees</caption>
+      <tr>
+        <th>Employee</th>
+        <th>Salary</th>
+      </tr>
+      <tr>
+        <td>Onur Ülker</td>
+        <td>Flutter Developer</td>
+      </tr>
+      <tr>
+        <td>Merve Polat</td>
+        <td>Web Developer</td>
+      </tr>
+    </table>
+
+
+  </body>
+</html>
